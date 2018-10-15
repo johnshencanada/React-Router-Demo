@@ -1,9 +1,9 @@
 import React from 'react';
 import Skill from './Skill';
-import { JSSkills } from '../../data/skills';
+import { RailsSkills } from '../../data/skills';
 
-const JavaScript = (props) => {
-  let skills = JSSkills.map((skill) => {
+const Rails = (props) => {
+  let skills = RailsSkills.map((skill) => {
     return <Skill title={skill.title}
                    desc={skill.description}
                    img={skill.img_src}
@@ -19,4 +19,4 @@ const JavaScript = (props) => {
   );
 }
 
-export default JavaScript;
+export default Rails;

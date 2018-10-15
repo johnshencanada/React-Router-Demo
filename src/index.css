@@ -90,13 +90,13 @@ header {
   display: table;
   clear: both;
 }
-.course {
+.skill {
   margin-bottom: 1em;
 }
 
 /* IMAGES -------- */
 
-.course-img {
+.skill-img {
   width: 70px;
 }
 .ambassador-img {
@@ -126,13 +126,13 @@ header {
 
 /* COURSE NAV -------- */
 
-.course-nav li {
+.skill-nav li {
   display: inline-block;
 }
-.course-nav li + li {
+.skill-nav li + li {
   margin-left: .6em;
 }
-.course-nav a {
+.skill-nav a {
   font-size: .85em;
   color: #7d7d7d;
   padding: .2em .8em;
@@ -140,8 +140,8 @@ header {
   background: #eaebeb;
   transition: .2s;
 }
-.course-nav a:hover,
-.course-nav a.active {
+.skill-nav a:hover,
+.skill-nav a.active {
   color: #fff;
   background: #39add1;
 }
@@ -186,10 +186,10 @@ header {
    .main-nav a:hover {
      border-color: rgba(0,0,0, .1);
    }
-   .courses h2 {
+   .skills h2 {
      margin-bottom: 0;
    }
-   .course-nav {
+   .skill-nav {
      display: block;
      margin: 1.5em 0 3.2em;
    }
@@ -247,10 +247,10 @@ header {
     border-color: rgba(0,0,0, .1);
   }
   /* COURSE NAV -------- */
-  .course-nav {
+  .skill-nav {
     float: right;
   } 
-  .courses h2 {
+  .skills h2 {
     float: left;
   }
 }

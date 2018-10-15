@@ -1,14 +1,15 @@
 import React from 'react';
 import Skill from './Skill';
-import { JSSkills } from '../../data/skills';
+import { ReactSkills } from '../../data/skills';
 
-const JavaScript = (props) => {
-  let skills = JSSkills.map((skill) => {
+const ReactSkill = (props) => {
+  let skills = ReactSkills.map((skill) => {
     return <Skill title={skill.title}
                    desc={skill.description}
                    img={skill.img_src}
-                   key={skill.id}
-                   demo={skill.demo} />
+                   key={skill.id} 
+                   demo={skill.demo} 
+                   />
   }); 
   return (
     <div>
@@ -19,4 +20,4 @@ const JavaScript = (props) => {
   );
 }
 
-export default JavaScript;
+export default ReactSkill;
