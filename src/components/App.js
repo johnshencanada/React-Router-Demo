@@ -1,24 +1,34 @@
 import React from 'react';
 import {
 	Route,
-	BrowserRouter
+	BrowserRouter,
+	Switch
 } from 'react-router-dom';
+
 
 import Header from './Header';
 import Home from './Home';
 import About from './About';
-import Teachers from './Teachers';
-import Courses from './Courses';
+import Ambassadors from './Ambassadors';
+import Skills from './Skills';
+import Work from './Work';
+import NotFound from './NotFound';
+import Featured from './Featured';
 
 const App = () => (
 
 	<BrowserRouter>
 		<div className="container">
 	  	<Header />
-	  	<Route exact path="/" component={Home} />
-	  	<Route path="/about" render={ ()=> <About title='About' /> }/>
-	  	<Route path="/teachers" component={Teachers} />
-	  	<Route path="/courses" component={Courses} />
+	  	<Switch>
+		  	<Route exact path="/" component={Home} />
+		  	<Route path="/about" render={ ()=> <About title='About' /> }/>
+		  	<Route exact path="/ambassadors" component={Ambassadors} />
+		  	<Route path="/ambassadors/:name" component={Featured} />
+		  	<Route path="/skills" component={Skills} />
+		  	<Route path="/work" component={Work} />
+		  	<Route component={NotFound} />
+	  	</Switch>
 	  </div>
   </BrowserRouter>
 

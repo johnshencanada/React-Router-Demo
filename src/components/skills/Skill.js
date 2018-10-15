@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Course = (props) => (
+const Skill = (props) => (
   <li className="course media group">
     <img className="course-img" src={props.img} alt="course" />
     <div>
@@ -10,4 +10,4 @@ const Course = (props) => (
   </li>
 );
 
-export default Course;
+export default Skill;

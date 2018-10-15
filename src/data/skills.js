@@ -1,3 +1,30 @@
+  
+export const JSSkills = [
+  {
+    title:"javaScript ES6",
+    description:"1 year experience with javaScript 2017 syntax. ",
+    img_src:"https://achievement-images.teamtreehouse.com/badges_JavaScript_Basics_Stage1.png",
+    id: "js-1"
+  },
+  {
+    title: "jQuery",
+    description: "1 year experience with javaScript",
+    img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage1.png",
+    id: "js-3"
+  },
+  {
+    title: "AJAX",
+    description: "1 year exprience with AJAX.",
+    img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_AJAXBasics_Stage3.png",
+    id: "js-4"
+  },
+  {
+    title: "Node.js",
+    description: "Basic understanding of Node.js",
+    img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_nodeBasics_Stage1.png",
+    id: "js-6"
+  }
+];
 export const CSSCourses = [
   {
     title: "CSS Basics",
@@ -18,7 +45,7 @@ export const CSSCourses = [
     id: "css-3"
   },
   {
-    title: "CSS Flexbox Layout",
+    title: "Flexbox",
     description: "Flexbox is a set of CSS properties that give you a flexible way to lay out content. With flexbox you can change the direction, alignment, size and order of elements, regardless of their original size and order in the HTML. You can even stretch and shrink elements and distribute space, all with just a few lines of CSS!",
     img_src: "https://achievement-images.teamtreehouse.com/badges_css_flexbox_layout_stage1.png",
     id: "css-4"
@@ -30,7 +57,7 @@ export const CSSCourses = [
     id: "css-5"
   },
   {
-    title: "Bootstrap 4 Basics",
+    title: "Bootstrap 4",
     description: "Learn to use Bootstrap 4, one of the most popular open source front end frameworks, to help you build a functional design and layout in little time.",
     img_src: "https://achievement-images.teamtreehouse.com/badge_bootstrap-4-basics_stage01.png",
     id: "css-6"
@@ -75,42 +102,3 @@ export const HTMLCourses =[
       id: "html-6"
     }
   ];
-  
-export const JSCourses = [
-  {
-    title:"JavaScript Basics",
-    description:"JavaScript is a programming language that drives the web: from front-end user interface design, to backend server-side programming, you'll find JavaScript at every stage of a web site and web application. In this course, you'll learn the fundamental programming concepts and syntax of the JavaScript programming language.",
-    img_src:"https://achievement-images.teamtreehouse.com/badges_JavaScript_Basics_Stage1.png",
-    id: "js-1"
-  },
-  {
-    title:"JavaScript Loops, Arrays and Objects",
-    description:"Storing, tracking and handling data is a large part of computer programming. Arrays provide a method for storing multiple values into a single variable. That makes an array a convenient way to pass around a list of items.",
-    img_src:"https://achievement-images.teamtreehouse.com/badges_JavaScript_Basics_Stage5.png",
-    id: "js-2"
-  },
-  {
-    title: "jQuery Basics",
-    description: "jQuery Basics covers why you'd want to use jQuery, what it is and how to include it in your projects. You'll build several projects over the course to give you the confidence to integrate jQuery in your own projects and add that level of flair and interactivity to any site you work on.",
-    img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_jQueryBasics_Stage1.png",
-    id: "js-3"
-  },
-  {
-    title: "AJAX Basics",
-    description: "AJAX is an important front-end web technology that lets JavaScript communicate with a web server. It lets you load new content without leaving the current page, creating a better, faster experience for your web site's visitors. In this course, you'll learn how AJAX works and how you can use JavaScript to communicate with a web server.",
-    img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_AJAXBasics_Stage3.png",
-    id: "js-4"
-  },
-  {
-    title: "Interactive Web Pages with JavaScript",
-    description: "In this course we’ll create a to-do list application using JavaScript alone, without using any third party libraries. You’ll get to grips with manipulating and traversing the DOM and adding event handlers to web page elements. The things that you can do with JavaScript are always increasing and this course will give you a solid footing going forward.",
-    img_src: "https://achievement-images.teamtreehouse.com/bagdes-javascript-interactiveweb-stage-12.png",
-    id: "js-5"
-  },
-  {
-    title: "Node.js Basics",
-    description: "In this course we will create a command line application to retrieve user's profile information from the Treehouse website. We'll be writing our application in JavaScript to run on the Node.js platform.",
-    img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_nodeBasics_Stage1.png",
-    id: "js-6"
-  }
-];

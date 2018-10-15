@@ -99,7 +99,7 @@ header {
 .course-img {
   width: 70px;
 }
-.teacher-img {
+.ambassador-img {
   width: 100%;
   border-radius: .3em;
 }
@@ -210,21 +210,21 @@ header {
   }
   .media img,
   .media > div,
-  .teacher {
+  .ambassador {
     float: left;
   }
   .media > div {
     width: 85.1%;
     margin-left: 1.5em;
   } 
-  .teacher {
+  .ambassador {
     width: 48.73%;
     margin-bottom: 1.5em;
   }
-  .teacher + .teacher {
+  .ambassador + .ambassador {
     margin-left: 2.54%;
   }
-  .teacher:nth-child(2n+3) {
+  .ambassador:nth-child(2n+3) {
     clear: left;
     margin-left: 0;
   }
