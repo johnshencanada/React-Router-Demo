@@ -4,7 +4,7 @@ export const RailsSkills = [
     description:"2 years experience with Ruby on Rails. Familiar with MVC pattern. REST pattern. ActiveRecord database migration.",
     img_src:"https://achievement-images.teamtreehouse.com/badges_SimpleFacebook_Stage1.png",
     id: "rails-1",
-    demo: "asdasd"
+    demo: "http://www.github.com"
   },
   {
     title: "Rails as API",
@@ -17,13 +17,15 @@ export const RailsSkills = [
     title: "Ruby GEM",
     description: "Familiar with popular ruby gems, devise, ",
     img_src: "https://achievement-images.teamtreehouse.com/badges_ruby_rubygems_Stage1.png",
-    id: "js-4"
+    id: "js-4",
+    demo: "http://www.github.com"
   },
   {
-    title: "Node.js",
+    title: "Ruby Script",
     description: "Basic understanding of Node.js",
     img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_nodeBasics_Stage1.png",
-    id: "js-6"
+    id: "js-6",
+    demo: "http://www.github.com"
   }
 ];
 
@@ -39,8 +41,7 @@ export const ReactSkills = [
     description:"Experiece with react router.",
     img_src:"https://achievement-images.teamtreehouse.com/badges_JavaScript_react_router_Stage1.png",
     id: "rails-1",
-    demo: "www.github.com"
-
+    demo: "https://github.com/johnshencanada/portfolio"
   },
   {
     title:"Redux",

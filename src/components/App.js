@@ -5,6 +5,9 @@ import {
 	Switch
 } from 'react-router-dom';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGhost } from '@fortawesome/free-solid-svg-icons'
 
 import Header from './Header';
 import Home from './Home';
@@ -14,6 +17,8 @@ import Skills from './Skills';
 import Work from './Work';
 import NotFound from './NotFound';
 import Featured from './Featured';
+
+library.add(faGhost)
 
 const App = () => (
 

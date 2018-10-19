@@ -6,7 +6,7 @@ const Skill = (props) => (
     <div>
       <h3>{props.title}</h3>
       <p>{props.desc}</p>
-      <a className="btn" target="_blank" href="http://www.github.com">           
+      <a className="btn btn-demo" target="_blank" href={props.demo}>           
       	{props.demo ? 'Demo' : ''}
  			</a>
     </div>

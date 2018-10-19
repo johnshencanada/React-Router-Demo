@@ -2,7 +2,7 @@
   WEB FONTS
 ==================================== */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,700);
 
 /* ================================= 
   ELEMENT STYLES
@@ -13,9 +13,9 @@
 }
 body {
   color: #576366;
-  background: #5fcf80;
+  background: #7a8599;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 h1,
 h2,
@@ -27,6 +27,7 @@ h2 {
   color: #404040;
   font-size: 1.6em;
   margin-bottom: 1.25em;
+  font-weight: 400;
 }
 ul {
   list-style-type: none;
@@ -40,6 +41,16 @@ hr {
   height: 0;
   margin: 2.3em 0 2em 0;
   border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+
+.btn-demo {
+  font-size: .85em;
+  color: #3b80d1;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s;
+  margin-right:10px;
 }
 
 /* FORM & BUTTON STYLES -------- */
@@ -79,7 +90,7 @@ button {
   overflow: hidden;
 }
 header {
-  background: #edeff0;
+  background: #576366;
   margin-bottom: 2em;
 }
 .main-content {
@@ -111,7 +122,7 @@ header {
 
 .main-nav a {
   font-size: .95em;
-  color: #222;
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   display: block;

@@ -30,10 +30,15 @@ class Home extends Component {
     return (
       <div className="main-content home">
         <h2>John Shen</h2>
+        <h3> Employment History </h3>
+        <hr/>
+        <h3> Education </h3>
+        <p> University of California, San Diego </p>
+
+
         <p> <b>Email:</b> johnshencanada@gmail.com </p>
         <p> <b>Phone:</b> 778-522-0766 </p>
         <p> <b>Home:</b> Vancouver, British Columbia, Canada </p>
-        <p> <b>Education:</b> University of California, San Diego </p>
         <p> Hello world, my name is john. I am a front end developer. <em>React Router Basics</em> course on Treehouse.</p>
         <hr />
         <h3> Featured Skills </h3>
