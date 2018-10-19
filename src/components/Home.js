@@ -63,7 +63,7 @@ const Employment = () => {
     <div>
       <h3> <i class="fas fa-suitcase"></i> Employment </h3>
       <p> full stack developer, Shenzhen, China </p>
-      <p> junior ios developer at Moxie Center, San Diego </p>
+      <p> junior developer at Moxie Center, San Diego </p>
       <p> Moxie Lab is an incubator in UCSD that helps student entrepreneurs to launch their ideas and products into the market. I worked there as a software advisor. My job was to help these entrepreneurs create software prototype with the least amount of money and effort so they could to get their Minimum Viable Product to the market as soon as possible.</p>
       <p> ios intern at NEXTHOME, San Diego </p>
       <p>NextHome is an iOS app I prototyped that uses Bluetooth Low Energy (BLE) to connect to a multi-purpose micro controller specifically designed for home automation. I worked with a team of Electrical Engineer, Industrial Designer and Firmware engineer to design a LED light bulb that can be controlled through the nextHome app. With the app, the user can turn on and off, adjust brightness, change colors, set timers to make adjustment to the light bulb.</p>

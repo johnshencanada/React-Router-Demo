@@ -1,21 +1,21 @@
 export const RailsSkills = [
   {
     title:"Basic Ruby on Rails",
-    description:"2 years experience with Ruby on Rails. Familiar with MVC pattern. REST API. Rails Routing. ActiveRecord migration.",
+    description:"Experience with Ruby on Rails. Familiar with MVC pattern. REST API. Rails Routing. ActiveRecord migration.",
     img_src:"https://achievement-images.teamtreehouse.com/badges_SimpleFacebook_Stage1.png",
     id: "rails-1",
     demo: "http://www.github.com"
   },
   {
     title: "Rails as API",
-    description: "1 year experience using rails to render REST API in JSON.",
+    description: "Familiar with rendering REST API in JSON.",
     img_src: "https://achievement-images.teamtreehouse.com/badges_api_Stage3.png",
     id: "js-3",
     demo: ""
   },
   {
     title: "Ruby GEM",
-    description: "Familiar with popular ruby gems, devise, ",
+    description: "Experience implementing popular ruby GEMs: Devise for user authentication; Paperclip and aws-s3 for file uploads; Stripe for payment processing; Sidekiq for background processing; ElasticSearch.",
     img_src: "https://achievement-images.teamtreehouse.com/badges_ruby_rubygems_Stage1.png",
     id: "js-4",
     demo: "http://www.github.com"
