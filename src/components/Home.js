@@ -30,17 +30,18 @@ class Home extends Component {
     return (
       <div className="main-content home">
         <h2>John Shen</h2>
-        <h3> Employment History </h3>
+        <p> Hello world, I am a full stack developer using ruby on rails and react.js </p>
+        <p> <i class="fas fa-envelope"></i> johnshencanada@gmail.com </p>
+        <p> <i class="fas fa-home"></i> Vancouver, British Columbia, Canada </p>
         <hr/>
-        <h3> Education </h3>
-        <p> University of California, San Diego </p>
 
+        <Employment />
+        <hr/>
 
-        <p> <b>Email:</b> johnshencanada@gmail.com </p>
-        <p> <b>Phone:</b> 778-522-0766 </p>
-        <p> <b>Home:</b> Vancouver, British Columbia, Canada </p>
-        <p> Hello world, my name is john. I am a front end developer. <em>React Router Basics</em> course on Treehouse.</p>
+        <h3> <i class="fas fa-graduation-cap"></i> Education </h3>
+        <p> Computer Engineering, University of California, San Diego </p>
         <hr />
+
         <h3> Featured Skills </h3>
         <Link to="skills/rails"> Ruby on Rails </Link>
         <Link to="skills/react"> React.js </Link>
@@ -56,4 +57,17 @@ class Home extends Component {
   }
 }
 
+const Employment = () => {
+
+  return (
+    <div>
+      <h3> <i class="fas fa-suitcase"></i> Employment </h3>
+      <p> full stack developer, Shenzhen, China </p>
+      <p> junior ios developer at Moxie Center, San Diego </p>
+      <p> Moxie Lab is an incubator in UCSD that helps student entrepreneurs to launch their ideas and products into the market. I worked there as a software advisor. My job was to help these entrepreneurs create software prototype with the least amount of money and effort so they could to get their Minimum Viable Product to the market as soon as possible.</p>
+      <p> ios intern at NEXTHOME, San Diego </p>
+      <p>NextHome is an iOS app I prototyped that uses Bluetooth Low Energy (BLE) to connect to a multi-purpose micro controller specifically designed for home automation. I worked with a team of Electrical Engineer, Industrial Designer and Firmware engineer to design a LED light bulb that can be controlled through the nextHome app. With the app, the user can turn on and off, adjust brightness, change colors, set timers to make adjustment to the light bulb.</p>
+    </div>
+  );
+}
 export default Home;

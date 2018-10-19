@@ -1,14 +1,14 @@
 export const RailsSkills = [
   {
     title:"Basic Ruby on Rails",
-    description:"2 years experience with Ruby on Rails. Familiar with MVC pattern. REST pattern. ActiveRecord database migration.",
+    description:"2 years experience with Ruby on Rails. Familiar with MVC pattern. REST API. Rails Routing. ActiveRecord migration.",
     img_src:"https://achievement-images.teamtreehouse.com/badges_SimpleFacebook_Stage1.png",
     id: "rails-1",
     demo: "http://www.github.com"
   },
   {
     title: "Rails as API",
-    description: "1 year experience using rails to render JSON API.",
+    description: "1 year experience using rails to render REST API in JSON.",
     img_src: "https://achievement-images.teamtreehouse.com/badges_api_Stage3.png",
     id: "js-3",
     demo: ""
@@ -22,7 +22,7 @@ export const RailsSkills = [
   },
   {
     title: "Ruby Script",
-    description: "Basic understanding of Node.js",
+    description: "Used ruby for scraping and scripting language",
     img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_nodeBasics_Stage1.png",
     id: "js-6",
     demo: "http://www.github.com"
@@ -54,7 +54,7 @@ export const ReactSkills = [
 export const JSSkills = [
   {
     title:"javaScript ES6",
-    description:"1 year experience with javaScript 2017 syntax. ",
+    description:"1 year experience with javaScript 2017 syntax. Fat Arrow function. ..notation  ",
     img_src:"https://achievement-images.teamtreehouse.com/badges_JavaScript_Basics_Stage1.png",
     id: "js-1"
   },
@@ -72,7 +72,7 @@ export const JSSkills = [
   },
   {
     title: "Node.js",
-    description: "Basic understanding of Node.js",
+    description: "Basic understanding of Node.js, Using Express.js to for server ",
     img_src: "https://achievement-images.teamtreehouse.com/badges_JavaScript_nodeBasics_Stage1.png",
     id: "js-6"
   }
@@ -119,8 +119,8 @@ export const CSSCourses = [
   
 export const HTMLCourses =[
     {
-      title: "How to Make a Website",
-      description: "If you’ve never built a website before and you have no coding or design experience, this is the place to start. In this project, we learn how to build a modern portfolio website for desktops, tablets, and mobile devices. We start with basic HTML and CSS syntax. Next, we learn how to build custom web pages with an image gallery and contact page. Finally, we walk through how to share a website live on the web.",
+      title: "Basic HTML5",
+      description: ".",
       img_src: "https://achievement-images.teamtreehouse.com/bagdes_html_howtobuildawebsite_stage02.png",
       id: "html-1"
     },
@@ -141,17 +141,5 @@ export const HTMLCourses =[
       description: "Scalable Vector Graphics (SVG) is an XML markup language for creating two-dimensional images using vectors. This is different from traditional raster-based image formats that use pixels, like JPEG and PNG. When used on web pages, SVG images provide an infinite level of detail, so they look sharp regardless of screen size or pixel density. ",
       img_src: "https://achievement-images.teamtreehouse.com/badges-html-svg-stage1.png",
       id: "html-4"
-    },
-    {
-      title: "Responsive Images",
-      description: "Using the new source-set and sizes attributes, and the new picture element, it's possible to create images that behave better in a responsive design. These new pieces of markup allow us to deliver the right image to the right device, based on resolution, pixel density, and other factors we define. This will help web pages load faster and look better, and the most capable devices will get the best looking images possible.",
-      img_src: "https://achievement-images.teamtreehouse.com/badges_html_respimages_stage2.png",
-      id: "html-5"
-    },
-    {
-      title: "Introduction to HTML and CSS",
-      description: "Get started creating web pages with HTML and CSS, the basic building blocks of web development. HTML, or Hypertext Markup Language, is a standard set of tags you will use to tell the web browser how the content of your web pages and applications are structured. Use CSS, or Cascading Style Sheets, to select HTML tags and tell the browser what your content should look like. ",
-      img_src: "https://achievement-images.teamtreehouse.com/badges_intro_to_html_css_stage-01.png",
-      id: "html-6"
     }
   ];
