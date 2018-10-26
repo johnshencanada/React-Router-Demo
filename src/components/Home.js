@@ -1,42 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import photo from './photo2.png';
-
-
-const rubyColor = {
-  border: '1px solid #B02B2C',
-  color: '#B02B2C',
-  opacity: '0.8'
-};
-
-const reactColor = {
-  border: '1px solid #7ED9F7',
-  color: '#7ED9F7',
-  opacity: '1'
-};
-
-const nodeColor = {
-  border: '1px solid #96bc52',
-  color: '#96bc52',
-  opacity: '0.8'
-};
-
-const reduxColor = {
-  border: '1px solid #7050b6',
-  color: '#7050b6',
-  opacity: '0.8'
-};
-
-const objectiveCColor = {
-  border: '1px solid #6aaef0',
-  color: '#6aaef0',
-  opacity: '0.8'
-};
-
-
-
-
+import photo from './photo1.png';
+import photo1 from './photo1.png';
+import photo2 from './photo2.png';
+import photo3 from './photo2.png';
+import photo4 from './photo2.png';
+import photo5 from './photo2.png';
 
 class Home extends Component {    
   
@@ -77,42 +47,50 @@ const Project = () => {
   return (
     <div>
       <h3> <i class="fas fa-suitcase"></i> Projects </h3>
-
       <p>
-      1. Exosphere. Exosphere is a ecommerce platform I have built using ruby on rails and react.  
+      1. Exosphere. An social E-commerce platform I built using Ruby on Rails and React. 
+      Tech stack involves, Images are hosted on Google cloud service. 
+      <br/>
+      website link:  
       <a href="http://www.exosphere.tech" target="_blank">www.exosphere.tech </a>
       </p>
-
-      <Work/>
-      <Work/>
-
-      <Link to="skills/rails" style={rubyColor}>  Ruby on Rails </Link>
-      <Link to="skills/react" style={reactColor}> React.js </Link>
+      <div className="gallery">
+        <img src={photo1} alt="Cinque Terre" width="300" height="200"/>
+      </div>
+      <div className="gallery">
+        <img src={photo2} alt="Cinque Terre" width="300" height="200"/>
+      </div>
+      <Link className="rubyColor" to="skills/rails">  Ruby on Rails </Link>
+      <Link className="reactColor" to="skills/react"> React.js </Link>
       
       <hr/>
 
       <p>
-      2. SCOREBOARD. React Redux.  
-      <a href="http://www.scoreboard.tech" target="_blank">www.scoreboard.tech </a>
+      2. Scoreboard. A simple React-Redux application. Implemetation of Redux store, actions and
+      reducers. 
+      <br/>
+      source code and link:  
+
+      <a href="https://github.com/johnshencanada/React-Redux-Demo" target="_blank">www.github.com/johnshencanada </a>
       </p>
-      <Link to="skills/rails" style={nodeColor}> Node.js </Link>
-      <Link to="skills/react" style={reactColor}> React.js </Link>
-      <Link to="skills/react" style={reduxColor}> Redux </Link>
+      <div className="gallery">
+        <img src={photo3} alt="Cinque Terre" width="300" height="200"/>
+      </div>
+
+      <Link className="nodeColor" to="skills/javascript"> Node.js </Link>
+      <Link className="reactColor" to="skills/react"> React.js </Link>
+      <Link className="reduxColor" to="skills/react"> Redux </Link>
       
       <hr/>
-
-      <p>
-      3. HUSH. Objective-C and C
-      <a href="http://www.scoreboard.tech" target="_blank">www.hush.tech </a>
-      </p>
-      <Link to="skills/rails" style={objectiveCColor}> Objective C </Link>
-      <hr/>
-
       <p> 
-      4.NEXTHOME 
+      3. NextHome. A home automation app that connects to a smart lightbulb.
+      <Work/>
+      <Work/>
+      <Work/>
+
       <a href="http://www.nexthometech.com" target="_blank">www.nexthometech.com </a>
       </p>
-      <Link to="skills/rails" style={objectiveCColor}> Objective C </Link>
+      <Link className="objectiveCColor" to="skills/rails"> Objective C </Link>
 
     </div>
   );

@@ -14,9 +14,9 @@ const About = (props) => (
         <hr />
 
         <h3> Featured Skills </h3>
-        <Link to="skills/rails"> Ruby on Rails </Link>
-        <Link to="skills/react"> React.js </Link>
-        <Link to="skills/ios"> Objective-c  </Link>
+        <Link className="rubyColor" to="skills/rails"> Ruby on Rails </Link>
+        <Link className="reactColor" to="skills/react"> React.js </Link>
+        <Link className="objectiveCColor" to="skills/ios"> Objective-c  </Link>
     </div>
 );
 

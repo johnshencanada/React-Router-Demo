@@ -19,6 +19,46 @@ div.desc {
   flex-direction: column;
 }
 
+
+.rubyColor {
+  border: none;
+  color: #fff;
+  background-color:#B02B2C;
+  opacity:0.8;
+}
+
+.reactColor {
+  border: none;
+  color: #fff;
+  background-color:#7ED9F7;
+  opacity:0.8;
+}
+
+.nodeColor {
+  border: none;
+  color: #fff;
+  background-color:#96bc52;
+  opacity:0.8;  
+}
+
+.reduxColor {
+  border: none;
+  color: #fff;
+  background-color:#7050b6;
+  opacity:0.8;  
+}
+
+.objectiveCColor {
+  border: none;
+  color: #fff;
+  background-color:#6aaef0;
+  opacity:0.8;  
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
 /* ================================= 
   WEB FONTS
 ==================================== */
@@ -63,7 +103,7 @@ a {
 hr {
   border: 0;
   height: 0;
-  margin: 2.3em 0 2em 0;
+  margin: 4em 0 4em 0;
   border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
@@ -83,7 +123,7 @@ hr {
 input,
 button {
   padding: .5em;
-  font-size: .9em;
+  font-size: .8em;
   margin-right: 10px;
   border: none;
   border-radius: 3px;
@@ -170,6 +210,8 @@ header {
 
 .skill-nav li {
   display: inline-block;
+  margin-top: 10px;
+
 }
 .skill-nav li + li {
   margin-left: .6em;
