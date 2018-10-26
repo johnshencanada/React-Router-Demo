@@ -1,10 +1,23 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = (props) => (
-  <div className="main-content">
-    <h2>{props.title}</h2>
-    <p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to visit the Teachers section to view a list of our talented teachers. Or visit the Courses section and select a topic -- HTML, CSS, or JavaScript -- to see a list of our courses.</p>
-  </div>
+    <div className="main-content home">
+        <h2>John Shen</h2>
+        <p> Hello world, I am a full stack developer using ruby on rails and react.js </p>
+        <p> <i class="fas fa-envelope"></i> johnshencanada@gmail.com </p>
+        <p> <i class="fas fa-home"></i> Vancouver, British Columbia, Canada </p>
+        <hr/>
+
+        <h3> <i class="fas fa-graduation-cap"></i> Education </h3>
+        <p> Computer Engineering, University of California, San Diego </p>
+        <hr />
+
+        <h3> Featured Skills </h3>
+        <Link to="skills/rails"> Ruby on Rails </Link>
+        <Link to="skills/react"> React.js </Link>
+        <Link to="skills/ios"> Objective-c  </Link>
+    </div>
 );
 
 export default About;

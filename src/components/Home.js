@@ -1,6 +1,42 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import photo from './photo2.png';
+
+
+const rubyColor = {
+  border: '1px solid #B02B2C',
+  color: '#B02B2C',
+  opacity: '0.8'
+};
+
+const reactColor = {
+  border: '1px solid #7ED9F7',
+  color: '#7ED9F7',
+  opacity: '1'
+};
+
+const nodeColor = {
+  border: '1px solid #96bc52',
+  color: '#96bc52',
+  opacity: '0.8'
+};
+
+const reduxColor = {
+  border: '1px solid #7050b6',
+  color: '#7050b6',
+  opacity: '0.8'
+};
+
+const objectiveCColor = {
+  border: '1px solid #6aaef0',
+  color: '#6aaef0',
+  opacity: '0.8'
+};
+
+
+
+
 
 class Home extends Component {    
   
@@ -29,45 +65,67 @@ class Home extends Component {
   render() {
     return (
       <div className="main-content home">
-        <h2>John Shen</h2>
-        <p> Hello world, I am a full stack developer using ruby on rails and react.js </p>
-        <p> <i class="fas fa-envelope"></i> johnshencanada@gmail.com </p>
-        <p> <i class="fas fa-home"></i> Vancouver, British Columbia, Canada </p>
+        <Project />
         <hr/>
-
-        <Employment />
-        <hr/>
-
-        <h3> <i class="fas fa-graduation-cap"></i> Education </h3>
-        <p> Computer Engineering, University of California, San Diego </p>
-        <hr />
-
-        <h3> Featured Skills </h3>
-        <Link to="skills/rails"> Ruby on Rails </Link>
-        <Link to="skills/react"> React.js </Link>
-        <Link to="skills/ios"> Objective-c  </Link>
-        <hr/>
-        <h3> Find Skills </h3>
-        <form onSubmit={this.handleSubmit}>
-          <input type="text" placeholder="Skill name" ref={ (input) => this.name = input } /> 
-          <button type="submit"> Go </button>
-        </form>
       </div>
     );
   }
 }
 
-const Employment = () => {
+const Project = () => {
 
   return (
     <div>
-      <h3> <i class="fas fa-suitcase"></i> Employment </h3>
-      <p> full stack developer, Shenzhen, China </p>
-      <p> junior developer at Moxie Center, San Diego </p>
-      <p> Moxie Lab is an incubator in UCSD that helps student entrepreneurs to launch their ideas and products into the market. I worked there as a software advisor. My job was to help these entrepreneurs create software prototype with the least amount of money and effort so they could to get their Minimum Viable Product to the market as soon as possible.</p>
-      <p> ios intern at NEXTHOME, San Diego </p>
-      <p>NextHome is an iOS app I prototyped that uses Bluetooth Low Energy (BLE) to connect to a multi-purpose micro controller specifically designed for home automation. I worked with a team of Electrical Engineer, Industrial Designer and Firmware engineer to design a LED light bulb that can be controlled through the nextHome app. With the app, the user can turn on and off, adjust brightness, change colors, set timers to make adjustment to the light bulb.</p>
+      <h3> <i class="fas fa-suitcase"></i> Projects </h3>
+
+      <p>
+      1. Exosphere. Exosphere is a ecommerce platform I have built using ruby on rails and react.  
+      <a href="http://www.exosphere.tech" target="_blank">www.exosphere.tech </a>
+      </p>
+
+      <Work/>
+      <Work/>
+
+      <Link to="skills/rails" style={rubyColor}>  Ruby on Rails </Link>
+      <Link to="skills/react" style={reactColor}> React.js </Link>
+      
+      <hr/>
+
+      <p>
+      2. SCOREBOARD. React Redux.  
+      <a href="http://www.scoreboard.tech" target="_blank">www.scoreboard.tech </a>
+      </p>
+      <Link to="skills/rails" style={nodeColor}> Node.js </Link>
+      <Link to="skills/react" style={reactColor}> React.js </Link>
+      <Link to="skills/react" style={reduxColor}> Redux </Link>
+      
+      <hr/>
+
+      <p>
+      3. HUSH. Objective-C and C
+      <a href="http://www.scoreboard.tech" target="_blank">www.hush.tech </a>
+      </p>
+      <Link to="skills/rails" style={objectiveCColor}> Objective C </Link>
+      <hr/>
+
+      <p> 
+      4.NEXTHOME 
+      <a href="http://www.nexthometech.com" target="_blank">www.nexthometech.com </a>
+      </p>
+      <Link to="skills/rails" style={objectiveCColor}> Objective C </Link>
+
     </div>
   );
 }
+
+const Work = () => {
+
+  return (
+    <div className="gallery">
+      <img src={photo} alt="Cinque Terre" width="300" height="200"/>
+    </div>
+  );
+}
+
+
 export default Home;

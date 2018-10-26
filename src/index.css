@@ -1,12 +1,7 @@
 div.gallery {
-  margin: 15px;
-  border:1px solid #efefef;
   float: left;
-  width: 80%;
-}
-
-div.gallery:hover {
-  border:2px solid #efefef;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 div.gallery img {
@@ -17,6 +12,11 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
 
 /* ================================= 
@@ -87,7 +87,6 @@ button {
   margin-right: 10px;
   border: none;
   border-radius: 3px;
-  border: solid 1px #ccc;
   outline: none;
 }
 button {
@@ -126,18 +125,21 @@ header {
   clear: both;
 }
 .skill {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 /* IMAGES -------- */
 
 .skill-img {
   width: 70px;
+  margin-top: 30px;
 }
+
 .ambassador-img {
   width: 100%;
   border-radius: .3em;
 }
+
 .not-found {
   text-align: center;
 }
@@ -207,7 +209,9 @@ body {
   padding-top: 3em;
 }
 .home a {
-  border-color: #3b80d1;
+/*  border-color: #252525;
+  color: #252525;
+  opacity: 0.8;*/
 }
 .media img,
 .media > div,

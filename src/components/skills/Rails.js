@@ -7,8 +7,7 @@ const Rails = (props) => {
     return <Skill title={skill.title}
                    desc={skill.description}
                    img={skill.img_src}
-                   key={skill.id}
-                   demo={skill.demo} />
+                   key={skill.id} />
   }); 
   return (
     <div>
