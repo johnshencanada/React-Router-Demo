@@ -5,8 +5,13 @@ div.gallery {
 }
 
 div.gallery img {
-  width: 100%;
+  width: 90%;
+  margin: 5%;
   height: auto;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }
 
 div.desc {
@@ -85,7 +90,6 @@ ul {
   padding: 0;
 }
 h2 {
-  color: #404040;
   font-size: 1.6em;
   margin-bottom: 1.25em;
   font-weight: 400;
@@ -103,7 +107,7 @@ a {
 hr {
   border: 0;
   height: 0;
-  margin: 4em 0 4em 0;
+  margin: 2em 0 2em 0;
   border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
@@ -147,7 +151,7 @@ button {
   max-width: 780px;
   padding-bottom: 2em;
   margin: 0 auto 2em;
-  background: #fff;
+  background: #fafafa;
   border-radius: .5em;
   box-shadow: 0 3px rgba(0,0,0, .1);
   overflow: hidden;
@@ -217,7 +221,7 @@ header {
   margin-left: .6em;
 }
 .skill-nav a {
-  font-size: .85em;
+  font-size: 1em;
   color: #7d7d7d;
   padding: .2em .8em;
   border-radius: .25em;
@@ -254,6 +258,7 @@ body {
 /*  border-color: #252525;
   color: #252525;
   opacity: 0.8;*/
+  font-size: 1em;
 }
 .media img,
 .media > div,

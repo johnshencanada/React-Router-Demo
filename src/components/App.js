@@ -6,7 +6,6 @@ import {
 } from 'react-router-dom';
 
 import Header from './Header';
-import Home from './Home';
 import About from './About';
 import Ambassadors from './Ambassadors';
 import Skills from './Skills';
@@ -20,7 +19,7 @@ const App = () => (
 		<div className="container">
 	  	<Header />
 	  	<Switch>
-		  	<Route exact path="/" component={Home} />
+		  	<Route exact path="/" component={Work} />
 		  	<Route path="/about" render={ ()=> <About title='About' /> }/>
 		  	<Route exact path="/ambassadors" component={Ambassadors} />
 		  	<Route path="/ambassadors/:name" component={Featured} />

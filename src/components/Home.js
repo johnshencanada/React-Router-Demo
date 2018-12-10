@@ -7,6 +7,7 @@ import photo2 from './photo2.png';
 import photo3 from './photo2.png';
 import photo4 from './photo2.png';
 import photo5 from './photo2.png';
+import techstack from './techstack.png';
 
 class Home extends Component {    
   
@@ -46,52 +47,6 @@ const Project = () => {
 
   return (
     <div>
-      <h3> <i class="fas fa-suitcase"></i> Projects </h3>
-      <p>
-      1. Exosphere. An social E-commerce platform I built using Ruby on Rails and React. 
-      Tech stack involves, Images are hosted on Google cloud service. 
-      <br/>
-      website link:  
-      <a href="http://www.exosphere.tech" target="_blank">www.exosphere.tech </a>
-      </p>
-      <div className="gallery">
-        <img src={photo1} alt="Cinque Terre" width="300" height="200"/>
-      </div>
-      <div className="gallery">
-        <img src={photo2} alt="Cinque Terre" width="300" height="200"/>
-      </div>
-      <Link className="rubyColor" to="skills/rails">  Ruby on Rails </Link>
-      <Link className="reactColor" to="skills/react"> React.js </Link>
-      
-      <hr/>
-
-      <p>
-      2. Scoreboard. A simple React-Redux application. Implemetation of Redux store, actions and
-      reducers. 
-      <br/>
-      source code and link:  
-
-      <a href="https://github.com/johnshencanada/React-Redux-Demo" target="_blank">www.github.com/johnshencanada </a>
-      </p>
-      <div className="gallery">
-        <img src={photo3} alt="Cinque Terre" width="300" height="200"/>
-      </div>
-
-      <Link className="nodeColor" to="skills/javascript"> Node.js </Link>
-      <Link className="reactColor" to="skills/react"> React.js </Link>
-      <Link className="reduxColor" to="skills/react"> Redux </Link>
-      
-      <hr/>
-      <p> 
-      3. NextHome. A home automation app that connects to a smart lightbulb.
-      <Work/>
-      <Work/>
-      <Work/>
-
-      <a href="http://www.nexthometech.com" target="_blank">www.nexthometech.com </a>
-      </p>
-      <Link className="objectiveCColor" to="skills/rails"> Objective C </Link>
-
     </div>
   );
 }
