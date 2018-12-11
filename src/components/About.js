@@ -1,13 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import book1 from './book1.jpg';
+import book2 from './book2.jpg';
+import book3 from './book3.jpg';
+import book4 from './book4.jpg';
+import book5 from './book5.jpg';
+import book6 from './book6.jpg';
+import book7 from './book7.jpg';
 
 const About = (props) => (
     <div className="main-content home">
         <h2> John Shen</h2>
-        <p> Hello World! I am a Front-End developer passionate about crafting beautiful user interface. 
-
+        <p> 
+            Hello World! 
+            I am an extremely curious Front-End developer passionate about crafting beautiful user interface. 
+            I love coding in modern javascript with libraries like React or Vue.
+            I am also ready to work on server-side frameworks such as Ruby on Rails and Express.js
         </p>
-        
+        <p> 
+            I am currently studying about software architecture and design principles. 
+            The most recent one being "microservices architecture".
+        </p>
+        <p>
+            In my free time, I like to read about macroeconomics and study how distributed ledger technology will impact the world economy.
+            I am also a cryptocurrency trader and investor.
+        </p>
+
         <hr/>
         <p> <i class="fas fa-envelope"></i> johnshencanada@gmail.com </p>
         <p> <i class="fas fa-home"></i> Vancouver, British Columbia, Canada </p>
@@ -20,6 +38,22 @@ const About = (props) => (
         <Link className="rubyColor" to="skills/rails"> Ruby on Rails </Link>
         <Link className="reactColor" to="skills/react"> React.js </Link>
         <Link className="objectiveCColor" to="skills/ios"> Objective-c  </Link>
+
+        <hr/>
+        <p> <i class="fas fa-book"></i> Books I am reading </p>
+        <p/>
+
+        <div className="book">
+            <img src={book1} />
+            <img src={book2} />
+            <img src={book3} />
+            <img src={book4} />
+        </div>
+
+        <div className="book">
+            <img src={book5} />
+            <img src={book6} />
+        </div>
     </div>
 );
 

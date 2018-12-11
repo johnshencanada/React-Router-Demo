@@ -7,22 +7,21 @@ const Exosphere = (props) => (
 
   <div className="gallery">
 
-    <h3>2.Token Airdrop </h3>
+    <h3>2.Token Airdrop Tool </h3>
     <p>
     link:  
-    <a href="http://www.exosphere.tech" target="_blank">github.com/johnshencanada </a>
+    <a href="http://www.exosphere.tech" target="_blank">github.com/johnshencanada/airdrop </a>
     </p>
 
     <p>
-    "NextHome" is a home automation app that connects and controls a smart light bulb using bluetooth low energy.
+    Airdrop is dada
     </p>  
 
     <p>
-    The app implements the micro-services architecture to make the app easier to maintain.
-    The app is mainly divided into 3 services.
+    This is a simple tool I created that airdrops EOS based tokens to EOS token holders based on a csv file.
     </p>
 
-    <Link className="objectiveCColor" to="skills/rails"> Objective C </Link>
+    <Link className="rubyColor" to="skills/rails"> Ruby </Link>
 
   </div>
 

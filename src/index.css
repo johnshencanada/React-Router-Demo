@@ -305,3 +305,12 @@ header,
 .skills h2 {
   float: left;
 }
+
+.book {
+  margin-bottom: 40px;
+}
+
+.book img {
+  width: 20%;
+  margin: 0% 2.5%;
+}
