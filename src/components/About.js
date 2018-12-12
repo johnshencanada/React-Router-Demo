@@ -14,15 +14,14 @@ const About = (props) => (
         <p> 
             Hello World! 
             I am an extremely curious Front-End developer passionate about crafting beautiful user interface. 
-            I love coding in modern javascript with libraries like React or Vue.
+            I love coding in modern javascript libraries like React or Vue.
             I am also ready to work on server-side frameworks such as Ruby on Rails and Express.js
         </p>
         <p> 
-            I am currently studying about software architecture and design principles. 
-            The most recent one being "microservices architecture".
+            I am really eager to learn about modern software architecture and design principles such as - "microservices architecture".
         </p>
         <p>
-            In my free time, I like to read about macroeconomics and study how distributed ledger technology will impact the world economy.
+            I enjoy reading  about macroeconomics and study how distributed ledger technology will impact the world economy.
             I am also a cryptocurrency trader and investor.
         </p>
 
